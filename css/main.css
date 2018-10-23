@@ -1,17 +1,12 @@
-/*
-
-font-family: 'Open Sans', sans-serif;
-font-family: 'Roboto', sans-serif;
-
-*/
-
 * {
 	box-sizing: border-box;
 }
+
 body {
 	margin: 0;
 	padding: 0;
 }
+
 ul, li {
 	display: inline-block;
 	text-decoration: none;
@@ -49,10 +44,12 @@ nav ul{
 	padding-top: 23px;
 
 }
+
 .nav-link:hover {
 	color: black;
 	
 }
+
 .nav-link {
 	text-transform: uppercase;
 	color: #767676;
@@ -90,9 +87,11 @@ nav ul{
 	font-weight: 400;
 	color: #363636;
 }
+
 main{
 	width: 100%;
 }
+
 .features-header {
 	text-align: center;
 	padding-top: 0px;
@@ -104,6 +103,7 @@ main{
 .featured-hr {
 	width: 300px;
 }
+
 .features-header h1 {
 	font-size: 2.5em;
 	color: #363636;
@@ -111,12 +111,12 @@ main{
 	text-transform: uppercase;
 	margin: 0;
 }
+
 .features-header p{
 	color: #363636;
 	font-family: 'Roboto', sans-serif;
 	font-size: 0.9rem;
 }
-
 
 .work {
 	display: flex;
@@ -326,6 +326,7 @@ form button {
   .contact-form form button {
 	width: 100%;
   }
+
   .adress p {
   	font-size: 0.5em;
   }
@@ -338,6 +339,7 @@ form button {
   	padding: 0;
   	margin: 0;
   }
+
   .works a {
 	padding: 0;
 	margin: 20px;
@@ -347,6 +349,7 @@ form button {
   	width: 100%;
 	max-width: 300px;
   }
+
   .wrap-header, .nav-bar, .nav-items {
   	display: flex;
   	flex-direction: column;
@@ -375,6 +378,7 @@ form button {
   .nav-items {
   	align-items: center;
   }
+
   .introducing {
   	padding: 10px 20px 10px 10px;
   }
@@ -384,19 +388,6 @@ form button {
   }
 }
 
-@media screen and (max-width: 525px) {
-	.work .works a img{
-		margin: 10px;
-	}
-	.works, a, img {
-		align-items: center;
-	}
-}
-
-
-
-
-font-size: 0.5em;
 
 
 
