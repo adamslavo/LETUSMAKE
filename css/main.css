@@ -39,15 +39,13 @@ header {
 	color: #767676;
 }
 
-nav ul{
+nav ul {
 	vertical-align: middle;
 	padding-top: 23px;
 
 }
-
 .nav-link:hover {
 	color: black;
-	
 }
 
 .nav-link {
@@ -73,7 +71,7 @@ nav ul{
 	padding-top: 100px;
 }
 
-.introducing h1{
+.introducing h1 {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -82,13 +80,13 @@ nav ul{
 
 }
 
-.introducing p{
+.introducing p {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	color: #363636;
 }
 
-main{
+main {
 	width: 100%;
 }
 
@@ -122,7 +120,6 @@ main{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	padding-bottom: 30px
 }
 
 .works {
@@ -132,13 +129,8 @@ main{
 	max-width: 996px;
 }
 
-.works a {
-	padding-left: 30px;
-}
-
-.works a img {
+.works img {
 	width: 100%;
-	padding: 20px;
 }
 
 .team {
@@ -147,7 +139,7 @@ main{
 	padding-top: 30px;
 }
 
-.team-text h1{
+.team-text h1 {
 	color: #363636;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 2.5rem;
@@ -155,12 +147,13 @@ main{
 	margin: 0;
 }
 
-.team-text p{
+.team-text p {
 	color: #767676;
 	font-family: 'Roboto', sans-serif;
 	font-size: 0.9rem;
 	padding-top: 25px;
 	margin: 0;
+	padding: 5px;
 }
 
 .team-hr {
@@ -222,7 +215,7 @@ main{
 	padding-bottom: 30px;
 }
 
-.map p{
+.map p {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	color: #767676;
@@ -310,8 +303,8 @@ form button {
 @media screen and (max-width: 520px) {
   .works {
   	display: flex;
+  	justify-content: center;
   	flex-direction: column;
-  	border: 1px red solid;
   	padding: 0;
   	margin: 0;
   }
@@ -340,9 +333,16 @@ form button {
   	margin: 0;
   }
 
-  .works a {
-	padding: 0;
-	margin: 20px;
+  .work, .works{
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  }
+
+  .works img{
+	width: 90%;
+	max-width: 420px;
+	padding-bottom: 10px;
   }
 
   .developer {
@@ -357,12 +357,6 @@ form button {
 
   .nav-bar {
   	background-color: #f2e5d9;
-  }
-
-  .nav-items {
-  	margin: 0;
-  	padding: 30px 0 30px 30px;
-  	align-items: center;
   }
 
   .wrap-header {
@@ -384,11 +378,26 @@ form button {
   }
 
   .header-intro {
-  	height: 300px;
+  	height: 320px;
+  }
+
+  .logo {
+  	font-size: 3rem;
+  }
+
+  nav ul {
+  	width: 100%;
+  	margin: 0;
+  	padding: 0;
+  }
+
+  nav ul li {
+  	text-align: center;
+  	margin-left: 30px;
+  	padding: 10px;
+  }
+
+  .features-header {
+  	padding-top: 170px;
   }
 }
-
-
-
-
-
