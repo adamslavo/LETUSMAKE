@@ -25,12 +25,12 @@ header {
 	display: flex;
 	width: 100%;
 	justify-content: space-between;
-	padding-bottom: 20px;
+	padding-bottom: 1rem;
 }
 
 .logo-section {
-	margin-left: 30px;
-	margin-top: 25px;
+	margin-left: 2rem;
+	margin-top: 2rem;
 }
 
 .logo {
@@ -41,7 +41,7 @@ header {
 
 nav ul {
 	vertical-align: middle;
-	padding-top: 23px;
+	padding-top: 2rem;
 
 }
 .nav-link:hover {
@@ -51,7 +51,7 @@ nav ul {
 .nav-link {
 	text-transform: uppercase;
 	color: #767676;
-	margin-right: 30px;
+	margin-right: 2rem;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -68,7 +68,7 @@ nav ul {
 }
 
 .introducing {
-	padding-top: 100px;
+	padding-top: 8rem;
 }
 
 .introducing h1 {
@@ -77,7 +77,6 @@ nav ul {
 	text-transform: uppercase;
 	font-size: 3rem;
 	color: #363636;
-
 }
 
 .introducing p {
@@ -92,14 +91,12 @@ main {
 
 .features-header {
 	text-align: center;
-	padding-top: 0px;
-	padding-bottom: 15px;
-	padding-top: 30px;
-	margin: 0;
+	padding: 3rem;
 }
 
 .featured-hr {
-	width: 300px;
+	width: 100%;
+	max-width: 300px;
 }
 
 .features-header h1 {
@@ -129,14 +126,19 @@ main {
 	max-width: 996px;
 }
 
+.works {
+	display: flex;
+	justify-content: center;
+}
+
 .works img {
-	width: 100%;
+	margin: 20px;
 }
 
 .team {
 	background-color: rgb(240, 240, 240);
 	text-align: center;
-	padding-top: 30px;
+	padding: 2rem;
 }
 
 .team-text h1 {
@@ -145,19 +147,19 @@ main {
 	font-size: 2.5rem;
 	text-transform: uppercase;
 	margin: 0;
+	padding: 1rem;
 }
 
 .team-text p {
 	color: #767676;
 	font-family: 'Roboto', sans-serif;
 	font-size: 0.9rem;
-	padding-top: 25px;
-	margin: 0;
-	padding: 5px;
+	padding: 1rem;
 }
 
 .team-hr {
-	width: 170px;
+	width: 100%;
+	max-width: 170px;
 }
 
 .team-members {
@@ -170,10 +172,10 @@ main {
 
 .developer {
 	background-color: #fff;
-	padding: 30px;
-	margin: 20px;
+	padding: 2rem;
+	margin: 2rem;
 	box-shadow: 5px;
-	box-shadow: 0px 3px 10px grey;
+	box-shadow: 0px 3px 30px grey;
 	width: 100%;
 	max-width: 210px;
 }
@@ -186,17 +188,12 @@ main {
 .developer-name {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
-	padding-top: 20px;
+	padding-top: 2rem;
 }
 
 .developer-position {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
-	padding-top: 10px;
-}
-
-.footer-main {
-	padding-left: 50px;
 }
 
 .footer-header {
@@ -205,14 +202,18 @@ main {
 	font-weight: 700;
 	text-transform: uppercase;
 	font-size: 1rem;
-	padding-top: 20px;
+	padding-top: 1rem;
 }
 
 .footer-main {
 	display: flex;
 	justify-content: space-around;
-	padding-top: 20px;
-	padding-bottom: 30px;
+	padding-top: 2rem;
+	padding-bottom: 3rem;
+}
+
+.map {
+	margin: 1rem;
 }
 
 .map p {
@@ -229,8 +230,7 @@ main {
 
 .contact-form {
 	display: block;
-	padding-left: 40px;
-	padding-right: 40px;
+	margin: 1rem
 }
 
 .contact-form p {
@@ -248,24 +248,24 @@ main {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	padding-bottom: 180px;
-	padding-left: 20px;
+	padding-left: 2rem;
 }
 
 .contact-form .email-place {
 	width: 100%;
-	max-width: 500px;
+	max-width: 587px;
 	height: 60px;
 	background-color: rgb(239, 239, 239); 
-	margin-top: 25px;
+	margin-top: 1rem;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
-	padding-left: 20px;
+	padding-left: 2rem;
 	border: 1px gray solid;
 }
 
 form button {
-	padding: 11px 85px;
-	padding-bottom: 18px;
+	padding: 1rem 6rem;
+	padding-bottom: 1rem;
 	border: 2px #fff solid; 
 	outline-style: none;
 	background-color: rgb(88, 130, 153);
@@ -274,15 +274,15 @@ form button {
 	font-weight: 700;
 	color: #fff;
 	font-size: 1.5rem;
-	box-shadow: 0px 1px 10px grey;
-	margin-top: 15px;
+	box-shadow: 0px 1px 30px grey;
+	margin-top: 1rem;
 }
 
 .footer-bottom {
 	display: flex;
 	justify-content: space-between;
-	padding-left: 45px;
-	padding-right: 45px;
+	padding-left: 3rem;
+	padding-right: 3rem;
 	background-color: rgb(79, 79, 79);
 }
 
@@ -339,12 +339,6 @@ form button {
   	align-items: center;
   }
 
-  .works img{
-	width: 90%;
-	max-width: 420px;
-	padding-bottom: 10px;
-  }
-
   .developer {
   	width: 100%;
 	max-width: 300px;
@@ -396,8 +390,28 @@ form button {
   	margin-left: 30px;
   	padding: 10px;
   }
-
-  .features-header {
-  	padding-top: 170px;
-  }
 }
+
+@media screen and (max-width: 340px) {
+
+	.features-header, h1 {
+		padding: 1rem;
+	}
+
+	.introducing h1 {
+		font-size: 2.5rem;
+	}
+
+	.header-intro {
+		height: 330px;
+	}
+}
+
+
+
+
+
+
+
+
+
